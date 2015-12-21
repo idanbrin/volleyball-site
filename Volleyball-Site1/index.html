@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="he" lang="he" dir="rtl">
+<head>
+    <title>אתר הכדורעף</title>
+    <link rel="stylesheet" type="text/css" href="Main.css" />
+    <meta charset="utf-8" />
+</head>
+<body>
+    <header>
+        <h1>אתר הכדורעף של עידן</h1>
+    </header>
+    <aside>
+        <nav>
+            <h2>תפריט:</h2>
+            <ul>
+                <li><a href="Rules.html">חוקי הכדורעף</a> </li>
+                <li><a href="Israel.html">כדורעף בישראל</a> </li>
+                <li><a href="World.html">כדורעף בעולם</a> </li>
+            </ul>
+        </nav>
+    </aside>
+    <section>
+        <div>
+            <div>
+                <label for="volleyball_general">מהו כדורעף:</label>
+            </div>
+            <textarea id="volleyball_general" cols="51" rows="7">
+כדורעף הוא ספורט אולימפי, ספורט זה הוא ספורט משפחתי וקבוצתי שאינו כולל אלימות בין שני הקבוצות מטרת האתר היא לספר למי שמתעניין בספורט או מעוניין להתחיל לעסוק בספורט על חוקי הכדורעף, הכדורעף בישראל ובעולם.
+            </textarea>
+        </div>
+        <div></div>
+        <div>
+            <img src="media/Filippo-Lanza-hot-italian-volleyball-player.jpg" width="480" height="320" alt="משחק כדורעף של נבחרת איטליה" />
+            <br />
+            <p>שחקן נבחרת איטליה בפעולה</p>
+        </div>
+    </section>
+    <section>
+        <form>
+            <h2>משוב:</h2>
+            <label for="email">כתובת מייל:</label>
+            <br />
+            <input type="email" id="email" autocomplete="on">
+            <br />
+            <label for="Select1">בחר:</label>
+            <br />
+            <select id="Select1">
+                <option>סתם הודעה</option>
+                <option>רוצה להישתתף</option>
+                <option>בעיה באתר</option>
+                <option>אחר</option>
+            </select>
+            <br />
+            <label for="Feedback">תוכן:</label>
+            <br />
+            <textarea id="Feedback" cols="50" rows="3"></textarea>
+            <br />
+            <input type="submit" value="שלח" formaction="GotFeedback.html">
+        </form>
+    </section>
+    <footer>
+        <div>
+            <!-- No CSS use - extenal to my volleyball web site -->
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:32px"
+                     src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                     alt="Valid CSS!" />
+            </a>
+            <a href="http://achecker.ca/checker/index.php?uri=referer&gid=WCAG2-AA">
+                <img src="http://achecker.ca/images/icon_W2_aa.jpg" alt="WCAG 2.0 (Level AA)" height="32" width="102" />
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

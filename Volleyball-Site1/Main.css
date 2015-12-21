@@ -1,0 +1,72 @@
+﻿html {
+    text-align: right;
+    background-image: url(media/bg_beach-volleyball_1600x870-b.jpg);
+    background-size: 100%;
+}
+
+body {
+    color: black;
+}
+
+h1 {
+    font-style: italic;
+    letter-spacing: 0.5em;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: right;
+    text-decoration: underline;
+}
+
+nav {
+    display: block;
+    padding:30px;
+}
+
+aside {
+    width: 20%;
+    float: right;
+}
+
+section {
+    display: table;
+    padding:10px;
+}
+
+article {
+    display: table;
+    padding:10px;
+}
+
+textarea {
+    background-color: lightgray;
+    font-size: 1.3em;
+}
+
+div {
+    padding-bottom: 1.1em;
+}
+
+table {
+    background-color: lightgray;
+    border: double;
+    width: 500px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+li  {
+    font-size: 1.3em;
+}
+
+a {
+    font-size: 1.3em;
+}
+
+label {
+    font-size: 1.5em;
+    text-align: right;
+    text-decoration: underline;
+}
